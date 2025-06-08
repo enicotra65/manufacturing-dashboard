@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: factoryflow-dashboard
+    env: node
+    buildCommand: npm run build
+    startCommand: serve dist
+    staticPublishPath: dist

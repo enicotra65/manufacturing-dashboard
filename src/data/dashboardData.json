@@ -1,0 +1,49 @@
+{
+  "kpiCards": [
+    {
+      "label": "Units Produced",
+      "value": "8,320"
+    },
+    {
+      "label": "Downtime (hrs)",
+      "value": "3.7"
+    },
+    {
+      "label": "Efficiency",
+      "value": "92%"
+    },
+    {
+      "label": "Orders Pending",
+      "value": "27"
+    }
+  ],
+  "statusTable": [
+    {
+      "line": "Line A",
+      "status": "Running",
+      "output": "1,203",
+      "updated": "5 mins ago"
+    },
+    {
+      "line": "Line B",
+      "status": "Paused",
+      "output": "978",
+      "updated": "12 mins ago"
+    },
+    {
+      "line": "Line C",
+      "status": "Error",
+      "output": "530",
+      "updated": "1 min ago"
+    }
+  ],
+  "chartData": [
+    { "name": "Mon", "output": 400 },
+    { "name": "Tue", "output": 700 },
+    { "name": "Wed", "output": 600 },
+    { "name": "Thu", "output": 800 },
+    { "name": "Fri", "output": 650 },
+    { "name": "Sat", "output": 500 },
+    { "name": "Sun", "output": 700 }
+  ]
+}
